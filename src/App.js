@@ -1,9 +1,12 @@
-
+import React from 'react';
 import './App.css';
+import Header from './components/Layout/Header';
 
 function App() {
   return (
-    <h1>Starting...</h1>
+    <React.Fragment>
+      <Header />
+    </React.Fragment>
   );
 }
 
